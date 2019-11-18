@@ -1,0 +1,42 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+#main-doc{
+display: -webkit-box;
+-webkit-box-orient: horizontal;
+height: 100%;
+}
+#nav-bar{
+ width:20%;
+ padding: 5px; 
+ position: fixed; 
+ height: 100%;
+ left:0;
+ top: 0;
+}
+#content{
+ width:70%;
+ height: fit-content;
+ padding: 5px;
+ margin-left: 290px;
+
+}
+#nav-link li{
+margin: 20px;
+list-style: none;
+width:inherit;
+}
+#nav-link a{
+color: grey;
+padding: 5px 10px;
+text-decoration: none;
+/* /border-bottom: 2px solid grey; */
+}
+#div{
+  background-color: rgb(226, 226, 226);
+  border-radius: 10px;
+  padding: 5px;
+}
