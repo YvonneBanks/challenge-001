@@ -1,0 +1,19 @@
+{
+  "name": "challenge-001",
+  "version": "1.0.0",
+  "description": "Repository contains all the work for challenge 2 of week 1",
+  "main": "objects.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YvonneBanks/challenge-001.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YvonneBanks/challenge-001/issues"
+  },
+  "homepage": "https://github.com/YvonneBanks/challenge-001#readme"
+}
