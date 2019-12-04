@@ -1,6 +1,6 @@
 const vowels = ['a','e','i','o','u'];
 var vowelsString =[];
-var duplicates = 0;
+var duplicates = "";
 function vowel_count(str1){
     for (const letter of str1) {
     for (const vowel of vowels) {
@@ -12,16 +12,9 @@ function vowel_count(str1){
         }
         
       }
-    }
-    
-        
+    } 
       }
       return ( `('${vowelsString}', ${duplicates})`); 
     }
-  
 
-    
-
-    
-
-  console.log(vowel_count("aroplane"));
+  console.log(vowel_count("foodeei"));
